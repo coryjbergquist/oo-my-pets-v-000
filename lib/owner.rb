@@ -1,4 +1,6 @@
 class Owner
+attr_accessor :species
+
 @@all = []
 
 
