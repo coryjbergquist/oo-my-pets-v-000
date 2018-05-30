@@ -3,10 +3,10 @@ attr_accessor :name
 
   def initialized(name)
     @name = name
-    
+
   end
 
-  def new(name)
+  def self.new(name)
     @name = name
   end
 
