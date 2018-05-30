@@ -1,13 +1,9 @@
 class Cat
-attr_accessor :name
+attr_accessor
 
   def initialized(name)
     @name = name
-
-  end
-
-  def self.new(name)
-    @name = name
+    @name
   end
 
 end
