@@ -84,8 +84,6 @@ attr_accessor  :name, :pets
   def list_pets
     fish_names = @pets[:fishes].map do |x|
       x.name
-      binding.pry
-
     end
     binding.pry
 
