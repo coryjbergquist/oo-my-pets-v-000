@@ -73,7 +73,7 @@ attr_accessor  :name, :pets
       x.each do |y|
         
       binding.pry
-
+end
     end
     @pets = @pets = {:fishes=>[], :dogs=>[], :cats=>[]}
   end
