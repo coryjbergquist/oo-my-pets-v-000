@@ -52,6 +52,7 @@ attr_accessor  :name, :pets
 
   def walk_dogs
     @pets[:dogs].each do |x|
+      binding.pry
       if x == @mood
         @mood = "happy"
       end
