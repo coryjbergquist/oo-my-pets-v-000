@@ -52,7 +52,7 @@ attr_accessor  :name, :pets
 
   def walk_dogs
     @pets[:dogs].map do |x|
-      x.split
+      x.split("")
         binding.pry
     end
   end
