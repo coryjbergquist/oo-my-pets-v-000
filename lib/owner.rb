@@ -53,7 +53,7 @@ attr_accessor  :name, :pets
   def walk_dogs
     binding.pry
     @pets[:dogs].each do |x|
-      x 
+      x
     end
   end
 
