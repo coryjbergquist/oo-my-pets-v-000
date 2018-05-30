@@ -5,8 +5,7 @@ class Cat
   end
 
   def self.new(name)
-    @name = name
-    @name
+    self.new(name)
   end
 
 
