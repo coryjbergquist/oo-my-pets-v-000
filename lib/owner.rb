@@ -69,7 +69,7 @@ attr_accessor  :name, :pets
   end
 
   def sell_pets
-    
+    @pets = @pets = {:fishes=>[], :dogs=>[], :cats=>[]}
   end
 
 end
