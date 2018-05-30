@@ -71,6 +71,7 @@ attr_accessor  :name, :pets
   def sell_pets
     @pets.each do |x|
       x.each do |y|
+        end
       y.mood = "nervous"
     end
   end
