@@ -71,7 +71,6 @@ attr_accessor  :name, :pets
   def sell_pets
     @pets.each do |x|
       x[1][1].mood = "nervous"
-      binding.pry
     end
     @pets = @pets = {:fishes=>[], :dogs=>[], :cats=>[]}
   end
