@@ -31,6 +31,9 @@ attr_accessor  :name
     "I am a #{@species}."
   end
 
+  def pets
+    @pets
+  end
 
 
 
