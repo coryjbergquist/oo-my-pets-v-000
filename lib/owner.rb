@@ -27,9 +27,9 @@ attr_accessor  :name
   end
 
   def say_species
-    puts @species
+    "I am a #{@species}."
   end
-  
+
 
 
 
