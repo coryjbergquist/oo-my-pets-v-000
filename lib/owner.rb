@@ -36,9 +36,8 @@ attr_accessor  :name, :pets
   end
 
   def buy_fish(new_name)
-    binding.pry
-    fishes = Fish.new(new_name)
-    @pets[:fishes] << "fishes"
+    new_fish = Fish.new(new_name)
+    @pets[:fishes] << new_fish
 
   end
 
