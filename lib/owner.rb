@@ -26,6 +26,11 @@ attr_accessor  :name
     @species
   end
 
+  def say_species
+    puts @species
+  end
+  
+
 
 
 end
