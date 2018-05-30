@@ -12,9 +12,7 @@ class Cat
     @name
   end
 
-  def mood
-    @mood
-  end
+
 
 
 
