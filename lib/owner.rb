@@ -35,6 +35,10 @@ attr_accessor  :name
     @pets
   end
 
+  def buy_fish(new_name)
+    new.Fish(new_name)
+  end
+
 
 
 end
