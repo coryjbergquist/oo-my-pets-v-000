@@ -79,7 +79,9 @@ attr_accessor  :name, :pets
           x.mood = "nervous"
         end
         @pets = @pets = {:fishes=>[], :dogs=>[], :cats=>[]}
+  end
 
-      end
+  def list_pets
+    "I have "
 
 end
