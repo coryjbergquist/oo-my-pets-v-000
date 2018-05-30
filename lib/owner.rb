@@ -68,5 +68,8 @@ attr_accessor  :name, :pets
     end
   end
 
+  def sell_pets
+    
+  end
 
 end
