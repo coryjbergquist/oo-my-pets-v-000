@@ -51,8 +51,30 @@ attr_accessor  :name, :pets
   end
 
   def walk_dogs
-  binding.pry
+    @pets[dogs].moo
   end
 
 
 end
+
+
+class Dog
+
+  def initialize(name)
+    @name = name 
+  end
+
+  def name
+    @name
+  end
+  
+
+  def mood=(new_mood)
+    @mood = new_mood)
+  end
+
+  def mood
+    @mood
+  end
+end
+
