@@ -1,7 +1,7 @@
 require "pry"
 
 class Cat
-  attr_accessor :mood
+  attr_accessor
 
   def initialize(name)
     @name = name
