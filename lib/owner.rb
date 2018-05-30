@@ -56,25 +56,3 @@ attr_accessor  :name, :pets
 
 
 end
-
-
-class Dog
-
-  def initialize(name)
-    @name = name 
-  end
-
-  def name
-    @name
-  end
-  
-
-  def mood=(new_mood)
-    @mood = new_mood)
-  end
-
-  def mood
-    @mood
-  end
-end
-
