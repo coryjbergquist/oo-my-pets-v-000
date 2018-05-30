@@ -72,6 +72,7 @@ attr_accessor  :name, :pets
     @pets = @pets = {:fishes=>[], :dogs=>[], :cats=>[]}
     @pets.each do |x|
       x.each do |y|
+        binding.pry
       y.mood = "nervous"
     end
     end
