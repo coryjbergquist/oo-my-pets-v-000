@@ -84,6 +84,8 @@ attr_accessor  :name, :pets
   def list_pets
     fish_names = @pets[:fishes].each do |x|
       x.name
+      binding.pry
+
     end
     binding.pry
 
