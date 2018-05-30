@@ -51,8 +51,8 @@ attr_accessor  :name, :pets
   end
 
   def walk_dogs
-    @pets[dogs]
     binding.pry
+    @pets[dogs]
   end
 
 
