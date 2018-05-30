@@ -11,8 +11,8 @@ class Cat
     @name
   end
 
-  def mood
-    @mood = "nervous"
+  def mood(arg)
+    @mood = arg
   end
 
 
