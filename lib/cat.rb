@@ -3,7 +3,7 @@ require "pry"
 
 class Cat
 
-  def initialized(name)
+  def initialize(name)
     binding.pry
     @name = name
   end
