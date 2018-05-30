@@ -1,6 +1,6 @@
 class Cat
 
-  def initialized(name
+  def initialized
     @name = name
     @name
   end
