@@ -50,4 +50,9 @@ attr_accessor  :name, :pets
     @pets[:dogs] << new_dog
   end
 
+  def walk_dogs
+    Dog.mood = "happy"
+  end
+
+
 end
