@@ -70,11 +70,8 @@ attr_accessor  :name, :pets
 
   def sell_pets
     @pets.each do |x|
-      x.each do |y|
-        binding.pry
-      y.mood = "nervous"
+      x.mood = "nervous"
     end
-  end
     @pets = @pets = {:fishes=>[], :dogs=>[], :cats=>[]}
   end
 
