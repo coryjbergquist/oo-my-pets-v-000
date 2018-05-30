@@ -6,4 +6,8 @@ attr_accessor :name
     
   end
 
+  def new(name)
+    @name = name
+  end
+
 end
