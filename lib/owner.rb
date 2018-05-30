@@ -82,6 +82,7 @@ attr_accessor  :name, :pets
   end
 
   def list_pets
+    binding.pry
     "I have #{@pets[:fishes.count]} fish"
   end
 
