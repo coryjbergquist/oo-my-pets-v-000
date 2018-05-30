@@ -53,8 +53,10 @@ attr_accessor  :name, :pets
   def walk_dogs
     binding.pry
     @pets[:dogs].map do |x|
-    x.mood = "happy"
+      x
     end
+    binding.pry
+
   end
 
 
