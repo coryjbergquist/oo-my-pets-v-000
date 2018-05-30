@@ -82,7 +82,7 @@ attr_accessor  :name, :pets
   end
 
   def list_pets
-    fish_names = @pets[:fishes].each do |x|
+    fish_names = @pets[:fishes].map do |x|
       x.name
       binding.pry
 
