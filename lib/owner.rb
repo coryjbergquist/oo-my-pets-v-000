@@ -52,8 +52,10 @@ attr_accessor  :name, :pets
 
   def walk_dogs
     @pets[:dogs].map do |x|
-      x
-      binding.pry
+      x.map do |y| 
+        y
+        binding.pry
+      end
     end
   end
 
