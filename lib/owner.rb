@@ -85,8 +85,12 @@ attr_accessor  :name, :pets
     fish_names = @pets[:fishes].map do |x|
       x.name
     end
-    binding.pry
-
+    dog_names = @pets[:dogs].map do |x|
+      x.name
+    end
+    cat_names = @pets[:cats].map do |x|
+      x.name
+    end
     "I have #{fish_names.count} fish"
   end
 
