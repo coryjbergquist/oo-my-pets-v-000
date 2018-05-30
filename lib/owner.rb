@@ -61,7 +61,7 @@ attr_accessor  :name, :pets
       x.mood = "happy"
     end
   end
-  
+
 
 
 end
