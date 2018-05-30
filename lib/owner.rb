@@ -54,7 +54,6 @@ attr_accessor  :name, :pets
     @pets[:dogs].map do |x|
       x.split
         binding.pry
-      end
     end
   end
 
