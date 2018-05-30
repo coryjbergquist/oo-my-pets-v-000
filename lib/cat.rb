@@ -1,7 +1,7 @@
 require "pry"
-attr_accessor :name
 
 class Cat
+  attr_accessor :name
 
   def initialize(name)
 
