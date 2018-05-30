@@ -52,7 +52,7 @@ attr_accessor  :name, :pets
 
   def walk_dogs
     binding.pry
-    @pets[:dogs].each do |x| 
+    @pets[:dogs].map do |x|
      x = "happy"
     end
   end
