@@ -36,8 +36,8 @@ attr_accessor  :name
   end
 
   def buy_fish(new_name)
-    fishes = Fish.new(new_name)
-    @pets[fishes] << fishes
+    new_fish = Fish.new(new_name)
+    @pets[fishes][new_fish]
 
   end
 
