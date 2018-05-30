@@ -70,6 +70,9 @@ attr_accessor  :name, :pets
 
   def sell_pets
     @pets = @pets = {:fishes=>[], :dogs=>[], :cats=>[]}
+    @pets.each do |x|
+      x.mood = "nervous"
+    end
   end
 
 end
