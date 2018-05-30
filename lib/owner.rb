@@ -44,8 +44,10 @@ attr_accessor  :name, :pets
     new_cat = Cat.new(new_name)
     @pets[:cats] << new_cat
   end
-  
 
-
+  def buy_dog(new_name)
+    new_dog = Dog.new(new_name)
+    @pets[:dogs] << new_dog
+  end
 
 end
