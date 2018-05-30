@@ -11,5 +11,8 @@ class Dog
     @name
   end
 
+  def mood
+    @mood
+  end
 
 end
