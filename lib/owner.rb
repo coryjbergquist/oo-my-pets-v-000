@@ -51,7 +51,7 @@ attr_accessor  :name, :pets
   end
 
   def walk_dogs
-    Dog.mood = "happy"
+    
   end
 
 
