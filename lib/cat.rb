@@ -11,8 +11,9 @@ class Cat
     @name
   end
 
-  def mood
-
+  def mood(new_mood)
+    @mood = new_mood
+    @mood
   end
 
 
