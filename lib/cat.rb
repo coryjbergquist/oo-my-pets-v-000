@@ -4,6 +4,11 @@ class Cat
     @name = name
   end
 
+  def self.new(name)
+    @name = name
+    @name
+  end
+
 
 
 end
