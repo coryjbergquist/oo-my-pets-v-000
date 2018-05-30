@@ -91,7 +91,7 @@ attr_accessor  :name, :pets
     cat_names = @pets[:cats].map do |x|
       x.name
     end
-    "I have #{fish_names.count} fish"
+    "I have #{fish_names.count} fish, #{dog_names.count} dog(s), and #{cat_names.count} cat(s)."
   end
 
 
